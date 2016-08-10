@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/NoteTxt" />
+    <Button
+        android:text="&lt;&lt;"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/FirstBtn" />
+    <Button
+        android:text="&gt;"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/NextBtn" />
+    <Button
+        android:text="&lt;"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/PreviousBtn" />
+    <ImageButton
+        android:src="@drawable/back_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/BackBtn" />
+</LinearLayout>
